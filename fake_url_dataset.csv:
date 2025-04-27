@@ -1,0 +1,16 @@
+url,label
+http://www.google.com,1
+https://secure-login.com/login,0
+http://192.168.0.1/secure,0
+https://bankofamerica.com.login.secure.com,0
+http://normalwebsite.com/page,1
+http://badwebsite.com/@login,0
+https://secure.paypal.com.fake-site.com,0
+http://free-gift-cards.com,0
+https://www.amazon.com,1
+http://verify-paypal-login.com,0
+https://onlinebanking-secure.com/login,0
+http://shoppingdealz.com,1
+http://login-update-security.com,0
+https://trustedwebsite.com,1
+http://fakeupdate.com/secure,0
