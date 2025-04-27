@@ -1,0 +1,8 @@
+# Instead of manually creating dataset, load CSV
+def prepare_dataset():
+    df = pd.read_csv('fake_url_dataset.csv')  # <-- load CSV
+    feature_list = [extract_features(url) for url in df['url']]
+    features_df = pd.DataFrame(feature_list)
+    X = features_df
+    y = df['label']
+    return X, y
